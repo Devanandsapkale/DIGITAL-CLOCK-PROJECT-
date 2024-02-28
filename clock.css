@@ -1,15 +1,18 @@
+/* this code use to avoid anvanted padding margin of the web page */
 *{
     margin: 0;
     padding: 0;
     font-family: 'Poppins','sans-serif';
     box-sizing: border-box;
 }
-.hero{
+/* this code use to set the height ,width, background,of  */
+.hero{  
     min-height: 100vh;
     width: 100%;
     background: linear-gradient(45deg,#000000,#14213d);
     position: relative;
 }
+/* this code use to creat a clock .container */
 .container{
     width: 800px;
     height: 250px;
@@ -18,7 +21,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    /* background:#edede9; */
+/* this .clock tag use for add the content decoration  */
 }
 .clock{
     width: 100%;
@@ -33,6 +36,7 @@
     justify-content: center;
 
 }
+/* this tag use for set the style of the numbers of clock */
 .clock span{
     font-size: 90px;
     width: 110px;
